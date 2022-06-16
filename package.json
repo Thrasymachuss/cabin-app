@@ -1,0 +1,32 @@
+{
+  "name": "newcabinattempt1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "start": "nodemon backend/index.js",
+    "test": "jest --watchAll --coverage --verbose --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "nodemailer": "^6.7.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "mongodb-memory-server": "^8.6.0",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}
