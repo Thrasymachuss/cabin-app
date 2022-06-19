@@ -1,0 +1,58 @@
+.login-form-wrap {
+  background-image: url("../assets/cabin-bg.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #fff;
+  opacity: 0.925;
+  border: 4px solid darkgreen;
+  padding: 20px;
+  width: min(90vw, 20rem);
+}
+
+.h1 {
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  display: block;
+  margin-bottom: 16px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid black;
+  background-color: #fff;
+}
+
+.form-btn {
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: darkgreen;
+  color: #fff;
+  padding: 4px 0;
+  margin-top: 16px;
+  transition: all 0.35s linear;
+}
+
+.form-btn:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.msg {
+  margin-top: 32px;
+}
